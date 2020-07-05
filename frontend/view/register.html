@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="../assets/logo.png" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/form.css">
     <link rel="stylesheet" href="../styles/anddress.css">
     <link rel="stylesheet" href="../styles/menu.css">
     <link rel="stylesheet" href="../styles/photo.css">
@@ -26,10 +27,10 @@
 
         <ul class="nav-links"> 
             <li><a href="index.html">Home</a></li>
-            <li><a href="#about-img">Sobre</a></li>
-            <li><a href="#menu">Cardápio</a></li>
+            <li><a href="index.html">Sobre</a></li>
+            <li><a href="index.html">Cardápio</a></li>
             <li><a href="#anddress">Endereço</a></li>
-            <li><a href="register.html">Cadastrar</a></li>            
+            <li><a href="#register">Cadastrar</a></li>            
         </ul>
         
         <div class="burguer">
@@ -40,10 +41,36 @@
 
     </nav>
 
-    <div>
+    <div class="cadastro" id="resgister">
+
         <form action="">
-            
+
+            <h1>Cadastrar</h1>
+
+            <div class="textBox">
+                <label for="">Nome</label>
+                <input type="text" placeholder="Nome" name="" id="" required="required">
+            </div>
+
+            <div class="textBox">
+                <label for="">Rua</label>
+                <input type="text" placeholder="Rua" name="" id="" required="required">
+            </div>
+
+            <div class="textBox">
+                <label for="">Bairro</label>
+                <input type="text" placeholder="Bairro" name="" id="" required="required">
+            </div>
+
+            <div class="textBox">
+                <label for="">Nº</label>
+                <input type="text" placeholder="Número da casa" name="" id="" required="required">
+            </div>
+
+            <button type="button" class="" placeholder="" onclick="">Cadastrar</button>
+
         </form>
+
     </div>
 
     <footer class="anddress"  id="anddress">
