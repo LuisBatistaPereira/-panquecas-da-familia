@@ -1,0 +1,11 @@
+.menu {
+    margin-top: 20px;
+    padding: 20px;
+    height: 50vh;
+    background: #ffffff;
+}
+.menu img{
+    padding-left: 20px;
+    margin: 5px 1% 5px 4.1%;
+    display: inline-block;
+}

@@ -45,7 +45,7 @@ public class ClientController {
 
     }
 
-    @PutMapping(value = "/{id}")
+    //@PutMapping(value = "/{id}")
     public ResponseEntity<ClientEntity> update (@PathVariable("id_client") long id_client,
                                                         @RequestBody ClientEntity clientEntity) throws Exception {
 
@@ -60,7 +60,7 @@ public class ClientController {
 
     }
 
-    @DeleteMapping(value = "/{id}")
+    //@DeleteMapping(value = "/{id}")
     public ResponseEntity<ClientEntity> delete (@PathVariable("id_client") long id_client ){
         this.clientRepository.deleteById(id_client);
         return new ResponseEntity<ClientEntity>(new HttpHeaders(), HttpStatus.OK);

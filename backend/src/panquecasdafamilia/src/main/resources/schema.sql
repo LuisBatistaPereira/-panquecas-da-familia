@@ -1,4 +1,4 @@
-drop table if exists client;
+  drop table if exists client;
 
 create table client(
   id_client bigint not null auto_increment,

@@ -1,0 +1,14 @@
+.photos {
+    margin-top: 20px;
+    padding: 20px;
+    height: 50vh;
+    background: #b48736;
+}
+.photos img{
+    padding: 0px;
+    margin: 5px 8% 5px 5.1%;
+    display: inline-block;
+    width: 260px;
+    height: 250px;
+    border: 10px solid  #9e762d;
+}

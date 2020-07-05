@@ -1,0 +1,44 @@
+.logo img{
+    width: 8vw;
+    height: 16vh;
+}
+
+.nav-links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #b48736;
+}
+
+.nav-links a:hover{
+    color: #f3f1f1;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #c29137;
+    transition: all 0.1s ease-in;
+}
+
+.burguer{
+    display: none;
+    cursor: pointer;
+}
+
+.burguer div{
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}

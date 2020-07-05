@@ -1,0 +1,24 @@
+.anddress {
+    margin-top: 80vh;
+    padding: 20px;
+    height: 10vh;
+    background: #b48736;
+}
+
+.anddress img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.anddress h1{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.anddress p{
+    display: inline;
+    margin-left: 75%;
+}
+
