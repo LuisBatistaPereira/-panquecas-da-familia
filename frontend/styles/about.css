@@ -1,16 +1,5 @@
-main{
-    display: block;
-}
-
-main p{
-    color: #9e762d;
-    text-align: center;
-    margin: 5px 10%;
-}
-
 .about-img img{
     margin: 5px 45%;
     width: 8vw;
     height: 16vh;
 }
-

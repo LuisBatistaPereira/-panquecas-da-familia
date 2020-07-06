@@ -16,3 +16,13 @@ nav{
     background-color: #b48736;
     font-family: 'Poppins', sans-serif;
 }
+
+main{
+    display: block;
+}
+
+main p{
+    color: #9e762d;
+    text-align: center;
+    margin: 5px 10%;
+}

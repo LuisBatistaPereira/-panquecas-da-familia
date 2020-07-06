@@ -41,6 +41,7 @@
         height: 14vh;
     }
 }
+
 @media screen and (max-width:765px){
     .about-img img{
         width: 10vw;

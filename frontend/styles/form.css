@@ -12,10 +12,6 @@
   color: #b48736;
 }
 
-.cadastro button{
-  margin-top: 5%;
-}
-
 .textBox, input, input:focus, select:focus{
   box-shadow: 0 0 0 0;
   border: 0 none;
@@ -33,29 +29,15 @@
   margin-top: 10px;
 }
 
-button, button:focus, button::selection {
+button, button:focus{
+  margin-top: 5%;
   border-radius: 8px;
   padding: 5px;
   border: 1px solid #b48736;
   color: #b48736;
 }
 
-button:hover, button:active{
+button:hover{
   color: white;
   background-color: #b48736;
-}
-
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 1vh;
-  background-color: #b48736;
-  font-family: 'Poppins', sans-serif;
-}
-
-.nav-links{
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
 }
